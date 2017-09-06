@@ -112,7 +112,7 @@
     <WinLibraryFiles Include="lib\win\swingame.rc" />
     <WinLibraryFiles Include="lib\win\zlib1.dll" />
     <None Include="packages.config" />
-    <None Include="Resources\images\xx.png" />
+    <None Include="Resources\images\CardsBoard.png" />
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
